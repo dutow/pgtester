@@ -1,0 +1,7 @@
+sudo apt install build-essential flex bison libssl-dev libelf-dev
+sudo apt install libbabeltrace-dev libunwind-dev libdw-dev binutils-dev libiberty-dev
+sudo apt install linux-tools-generic cargo
+git clone --depth=1 https://github.com/microsoft/WSL2-Linux-Kernel.git
+cd WSL2-Linux-Kernel/tools/perf
+make -j
+
